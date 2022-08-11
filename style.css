@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Be+Vietnam+Pro:wght@400;500;700&family=Clicker+Script&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;600;700&family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@700&family=Special+Elite&family=Ubuntu:wght@300&family=Varela+Round&family=Work+Sans:wght@200&display=swap');
+
+:root{
+--pri-clr-d-cyan: hsl(158, 36%, 37%);
+--pri-clr-cream: hsl(30, 38%, 92%);
+
+--neut-clr-d-blue: hsl(212, 21%, 14%);
+--neut-clr-g-blue: hsl(228, 12%, 48%);
+--neut-clr-white: hsl(0, 0%, 100%);
+
+--font-size-pg : 14px;
+
+--fw-light: 400;
+--fw-semi-bold: 500;
+--fw-bold: 700;
+}
+
+body {
+    background: var(--pri-clr-cream);
+}
+.container img{
+    background: var(--neut-clr-white);
+}
+.container .box{
+    background: var(--neut-clr-white);
+}
+.container .box .edit{
+    background: var(--neut-clr-white);
+}
+.container .box .edit h1{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    background: #FFFFFF;
+}
+.container .box .edit h2{
+    background: #FFFFFF;
+        font-family: 'Fraunces', serif;
+        color: var(--pri-clr-d-cyan)
+}
+.container .box .edit .left strike{
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container .box .edit button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: var(--pri-clr-d-cyan);
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    }
+    .container .box .edit button:hover{
+        background:hsl(157, 36%, 14%);
+       cursor: pointer;
+    }
+    .container .box .edit button > img {
+        background: transparent;
+        padding-right: 13px;
+        height: 20px;
+        width: 20px;
+    }
+    .container .box .edit p{
+        background: #FFFFFF;
+        font-weight: var(--fw-light);
+        color: var(--neut-clr-g-blue);
+       
+    }
+    .container .box .edit .long{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .container .box .top{
+        font-family: 'Montserrat', sans-serif;
+        background: var(--neut-clr-white);
+        text-transform: uppercase;
+        color: var(--neut-clr-g-blue);
+        }
+
+@media (max-width: 2000px){
+
+    .container{
+        background: #FFFFFF;
+        margin-top: 20vh;
+        margin-left: 55vh;
+        height: 60vh;
+        width: 82vh;
+       border: none;
+       border-radius: 15px;
+       overflow: hidden;
+       box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.187);
+    }
+    .container .box .edit .long{
+        line-height: 1.6;
+        padding-top: 11px;
+        font-size: 18px
+    }
+    .container .hidden{
+        height:60vh;
+        width: 43vh;
+    }
+    .container .hidden-1{
+        display: none;
+    }
+    .container .box{
+    height: 60vh;
+    width: 36vh;
+    float: right;
+    }
+    .container .box .edit{
+    padding-left: 12px;
+    padding-right: 20px;
+    }
+    .container .box .edit h1{
+        font-size: 40px;
+        line-height: 1;
+    }
+    .container .box .edit h2{
+        font-size: 42px;
+    float: left;
+    }
+    .container .box .edit .left strike{
+        background: none;
+       float: right;
+    }
+    .container .box .edit .left {
+       padding-right: 50px;
+       padding-top: 50px;
+    }
+    .container .box .edit button{
+    height: 60px;
+    width: 300px;
+    }
+    
+    .container .box .top{
+        font-family: 'Montserrat', sans-serif;
+        background: var(--neut-clr-white);
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: var(--neut-clr-g-blue);
+        margin-top: 45px;
+    }
+}
+@media (max-width: 1500px){
+
+    .container{
+        background: #FFFFFF;
+        margin-top: 20vh;
+        margin-left: 55vh;
+        height: 60vh;
+        width: 82vh;
+       border: none;
+       border-radius: 15px;
+       overflow: hidden;
+       box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.187);
+    }
+    .container .box .edit .long{
+        line-height: 1.6;
+        padding-top: 11px;
+        font-size: 18px
+    }
+    .container .hidden{
+        height:60vh;
+        width: 43vh;
+    }
+    .container .hidden-1{
+        display: none;
+    }
+    .container .box{
+    height: 60vh;
+    width: 36vh;
+    float: right;
+    }
+    .container .box .edit{
+    padding-left: 12px;
+    padding-right: 20px;
+    }
+    .container .box .edit h1{
+        font-size: 40px;
+        line-height: 1;
+    }
+    .container .box .edit h2{
+        font-size: 42px;
+    float: left;
+    margin-top: -10px;
+    }
+    .container .box .edit .left strike{
+        background: none;
+       float: right;
+    }
+    .container .box .edit .left {
+       padding-right: 40px;
+       padding-top: 7px;
+    }
+    .container .box .edit .button{
+    height: 60px;
+    width: 280px;
+    padding-right: 10px;
+    }
+    
+    .container .box .top{
+        font-family: 'Montserrat', sans-serif;
+        background: var(--neut-clr-white);
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: var(--neut-clr-g-blue);
+        margin-top: 45px;
+    }
+}
+@media (max-width: 500px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        right: 25px;
+        top: -98px;
+    }
+    .hidden-1{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+   .container{
+    height: 600px;
+    width: 320px;
+   }
+
+   }
