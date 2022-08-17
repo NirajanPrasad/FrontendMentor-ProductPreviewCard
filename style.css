@@ -83,6 +83,7 @@ body {
 @media (max-width: 650px) {
   .hidden {
     display: none;
+    max-width: 360px;
   }
   .hidden-1 {
     max-width: 100%;
